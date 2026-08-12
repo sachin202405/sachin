@@ -12,4 +12,4 @@ jobs:
 
       - name: Print Message
         #run: echo "Hello GitHub Actions"
-        run: ll 
+        run: echo "sachin"
