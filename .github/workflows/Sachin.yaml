@@ -40,6 +40,6 @@ jobs:
       - name: Verify Docker installation
         run: |
           sudo docker --version
-          sudo docker run hello-world  
+          sudo docker pull python
           sudo docker image ls
-          sudo docker pull nginx:latest
+          
