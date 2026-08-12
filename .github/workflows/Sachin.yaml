@@ -41,6 +41,4 @@ jobs:
         run: |
           sudo docker --version
           sudo docker run hello-world  
-          sudo mkdir sachin
-          cd sachin 
-          ls-l
+          sudo docker images ls
