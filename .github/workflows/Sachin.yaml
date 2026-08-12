@@ -41,4 +41,5 @@ jobs:
         run: |
           sudo docker --version
           sudo docker run hello-world  
-          sudo docker images ls
+          sudo docker image ls
+          sudo docker pull nginx:latest
